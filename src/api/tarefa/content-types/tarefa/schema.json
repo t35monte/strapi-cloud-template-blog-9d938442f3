@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tarefas",
+  "info": {
+    "singularName": "tarefa",
+    "pluralName": "tarefas",
+    "displayName": "Tarefa"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "texto": {
+      "type": "string",
+      "required": true
+    },
+    "feita": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
