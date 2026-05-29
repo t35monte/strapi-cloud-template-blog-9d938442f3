@@ -1,3 +1,3 @@
-const { factories } = require('@strapi/strapi');
-
-module.exports = factories.createCoreRouter('api::tarefa.tarefa');
+'use strict';
+const { createCoreRouter } = require('@strapi/strapi').factories;
+module.exports = createCoreRouter('api::tarefa.tarefa');

@@ -1,3 +1,3 @@
-const { factories } = require('@strapi/strapi');
-
-module.exports = factories.createCoreController('api::tarefa.tarefa');
+'use strict';
+const { createCoreController } = require('@strapi/strapi').factories;
+module.exports = createCoreController('api::tarefa.tarefa');
