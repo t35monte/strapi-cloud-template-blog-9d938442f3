@@ -1,5 +1,7 @@
 module.exports = [
+  'strapi::logger',
   'strapi::errors',
+  'strapi::security',
   {
     name: 'strapi::cors',
     config: {
@@ -9,7 +11,6 @@ module.exports = [
     },
   },
   'strapi::poweredBy',
-  'strapi::logger',
   'strapi::query',
   'strapi::body',
   'strapi::session',
